@@ -26,7 +26,7 @@ If there is no IDE available the following steps are required to compile and exe
 
 Inorder to compile and execute via command prompt , follow this steps
 
-Step#1 move to project directory: the name of project folder is APTC
+Step#1 move to project directory: the name of project folder is APTC and create bin directory
 
 Step#2 execute the below command to compile the project and move .class files in the bin folder
 javac -sourcepath src -d bin  src/com/*.java
