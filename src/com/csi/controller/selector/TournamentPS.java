@@ -3,7 +3,6 @@ package com.csi.controller.selector;
 import com.csi.model.Individual;
 import com.csi.model.Population;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 

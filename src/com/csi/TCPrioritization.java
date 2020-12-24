@@ -14,7 +14,7 @@ public class TCPrioritization {
         if (valiateInput(args)) {
             configuration = new Configuration(args);
         } else {
-            String[] inputParmeters = {args[0], "0", "3", "1"};
+            String[] inputParmeters = {args[0], "1", "3", "0"};
             configuration = new Configuration(inputParmeters);
         }
         configuration.initializeDataCoverage();

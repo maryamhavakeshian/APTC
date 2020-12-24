@@ -37,7 +37,7 @@ cd ./bin
 step#4 execute the below command to execute main class
 java  com.csi.TCPrioritization [datasetfileName] [parentSelectorCode] [CrossOverTypeCode] [MutationTypeCode]
 OR
-java  com.csi.TCPrioritization [datasetfileName]
+java  com.csi.TCPrioritization [datasetfileName] ***** with one in put the system set tournamentSelection, position-based crossover, and insetion mutation
 
 Mutation operators:
 0: Inseration mutation
@@ -65,6 +65,12 @@ Termination condition	                    Execution time = 1 minute
 Tournament size	                            2
 S value in linear ranking selection     	1.5
 
+### general configuration
+number of repitions                          1
+Termination Condition                        1 minute execution time
+default parent selection                     1 tournament
+default crossover type                       3 position based
+default mutation type                        0 insertion
 
 
 

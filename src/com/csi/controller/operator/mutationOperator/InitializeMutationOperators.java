@@ -1,6 +1,5 @@
 package com.csi.controller.operator.mutationOperator;
 
-import com.csi.controller.operator.mutationOperator.Mutation;
 
 import java.util.ArrayList;
 

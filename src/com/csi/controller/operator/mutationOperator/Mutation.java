@@ -1,9 +1,6 @@
 package com.csi.controller.operator.mutationOperator;
 
 import com.csi.model.Individual;
-import com.csi.model.Population;
-
-import java.util.ArrayList;
 import java.util.Random;
 
 /**
